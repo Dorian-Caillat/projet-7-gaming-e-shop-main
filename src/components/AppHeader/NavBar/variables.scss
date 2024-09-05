@@ -1,0 +1,24 @@
+$dark: #d3d3d3;
+$light: #fff;
+$primary: rgb(224, 224, 245);
+$bg: rgb(244, 244, 255);
+
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+$borderRadius: 12px;
+
+$headerHeight: 80px;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    // 768px
+    @media (min-width: 48em) {
+      @content;
+    }
+  }
+}
+
+.visible.menu.transition {
+  overflow: visible;
+}

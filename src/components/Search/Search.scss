@@ -1,0 +1,26 @@
+.dropdown {
+  display: block;
+  margin: 5%;
+}
+
+.gamelist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px 0;
+  @media screen and (min-width: 768px) {
+    gap: 0;
+    justify-content: left;
+    margin: 10px 100x;
+  }
+
+  &-result {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ui.card {
+    margin: 10px;
+  }
+}

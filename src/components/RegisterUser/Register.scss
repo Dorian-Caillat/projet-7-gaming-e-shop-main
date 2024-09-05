@@ -1,0 +1,28 @@
+.form {
+  border: solid 1px black;
+  margin-top: 25px !important;
+  margin-bottom: 50px !important;
+  padding: 20px;
+  border-radius: 20px;
+}
+.error {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .formulaire {
+    display: flex;
+    justify-content: center;
+  }
+  .form {
+    margin-top: 50px !important;
+    margin-bottom: 75px !important;
+    width: 25%;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  .error {
+    font-size: 22px;
+  }
+}

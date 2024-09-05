@@ -1,0 +1,39 @@
+.connexion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &-email {
+    margin-bottom: 10px;
+  }
+
+  &-password {
+    margin-bottom: 10px;
+  }
+
+  &-submit {
+    margin-bottom: 10px;
+  }
+
+  &-register {
+    margin-bottom: 10px;
+  }
+}
+
+input {
+  margin-left: 4px;
+}
+
+.input-email {
+  margin-bottom: 15px;
+}
+
+.input-password {
+  margin-bottom: 30px;
+}

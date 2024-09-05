@@ -1,0 +1,36 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+  background-color: #d3d3d3;
+  padding: 10px;
+  &-terms {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+    &:hover {
+      color: #8fa88b;
+    }
+  }
+
+  &-network {
+    margin-left: 10px;
+    max-width: 30px;
+    max-height: 30px;
+    transition: max-width 0, 8s ease-in-out, max-height 0, 8s ease-in-out;
+
+    &:hover {
+      max-width: 45px;
+      max-height: 45px;
+    }
+  }
+
+  &-terms {
+    text-align: center;
+  }
+}

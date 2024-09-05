@@ -1,0 +1,41 @@
+.gamesheet {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  @media screen and (max-width: 425px) {
+    width: 50% !important;
+    .gamesheet {
+      display: flex !important;
+      flex-direction: column !important;
+      &-paragraph {
+        font-size: 8px;
+        &-name {
+          font-size: large;
+        }
+      }
+    }
+    .image {
+      height: 50% !important;
+    }
+    .button-hover {
+      font-size: 10px !important;
+      margin-top: 10px !important;
+    }
+  }
+}
+
+.gamesheet-paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  &-name {
+    font-size: large;
+  }
+}
+.gamesheet-button {
+  margin-left: 30px;
+}
+.price {
+  margin-left: 5px;
+  text-decoration: line-through;
+}
